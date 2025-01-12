@@ -55,7 +55,15 @@ namespace Session_4_OOP
 
             // str = new ImmutableString ("Mohamed");
             #endregion
-
+            #region Partial Class
+            //Employee employee = new Employee()
+            //{
+            //    Id = 1,
+            //    Name = "Mostafa",
+            //    Age = 23,
+            //    Address = "Dokki"
+            //}
+            #endregion
         }
     }
 }
