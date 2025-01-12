@@ -1,8 +1,15 @@
 ﻿using Session_4_OOP.Abstraction;
+using Session_4_OOP.Sealed;
 using Session_4_OOP.Static;
 
 namespace Session_4_OOP
 {
+    #region Sealed class
+    //static void CalcPayement(PayementProcessor processor)
+    //{
+    //    processor.ProcessPayement(100);
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -43,7 +50,11 @@ namespace Session_4_OOP
 
             // Console.WriteLine(U01.CalcCircleArea(10)); 
             #endregion
+            #region Sealed Class
+            // ImmutableString str = new ImmutableString("Ahmed");
 
+            // str = new ImmutableString ("Mohamed");
+            #endregion
 
         }
     }
